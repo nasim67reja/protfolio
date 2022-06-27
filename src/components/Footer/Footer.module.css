@@ -1,0 +1,24 @@
+footer {
+  padding: 3rem 0;
+  margin-bottom: 2rem;
+}
+.line {
+  width: 100%;
+  height: 6px;
+  background-color: #ddd;
+  border-radius: 1rem;
+  margin-bottom: 3rem;
+}
+.dis {
+  justify-content: space-between;
+}
+
+.dis p {
+  font-size: 1.6rem;
+  color: var(--color-body-white);
+}
+.link:link,
+.link:visited {
+  margin-left: 5px;
+  color: var(--main-color);
+}
