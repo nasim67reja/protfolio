@@ -57,13 +57,27 @@ a:visited {
   border-radius: 5px;
   padding: 1.5rem;
   cursor: pointer;
+  position: relative;
 }
-
+.scale {
+  transform: scale(1.25);
+}
+.skill-show {
+  position: absolute;
+  top: 0%;
+  left: 0%;
+  z-index: 1;
+  font-size: 1.6rem;
+  color: var(--main-color);
+  padding: 5px;
+}
 .logoList img {
   height: 100%;
   width: 100%;
 }
-
+.less-opacity {
+  opacity: 0;
+}
 /* General */
 .flex {
   display: flex;

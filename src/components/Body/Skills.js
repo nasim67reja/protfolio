@@ -3,53 +3,53 @@ import { Fragment } from "react";
 import styles from "./Skills.module.css";
 
 //  Proficient
-import nodejs from "../../Images/Logo/nodejs.svg";
-import reactjs from "../../Images/Logo/reactjs.svg";
-import expressjs from "../../Images/Logo/expressjs.svg";
-import mongodb from "../../Images/Logo/mongodb.svg";
-import js from "../../Images/Logo/js.svg";
-import css from "../../Images/Logo/css.svg";
-import html5 from "../../Images/Logo/html5.svg";
-import redux from "../../Images/Logo/redux.svg";
+import Nodejs from "../../Images/Logo/nodejs.svg";
+import Reactjs from "../../Images/Logo/reactjs.svg";
+import Expressjs from "../../Images/Logo/expressjs.svg";
+import Mongodb from "../../Images/Logo/mongodb.svg";
+import JS from "../../Images/Logo/js.svg";
+import CSS from "../../Images/Logo/css.svg";
+import Html5 from "../../Images/Logo/html5.svg";
+import Redux from "../../Images/Logo/redux.svg";
 
 // comfortable
-import sass from "../../Images/Logo/sass.svg";
+import Sass from "../../Images/Logo/sass.svg";
 import typescript from "../../Images/Logo/typescript.svg";
-import nextjs from "../../Images/Logo/nextjs.svg";
+import NextJs from "../../Images/Logo/nextjs.svg";
 import tailwindcss from "../../Images/Logo/tailwindcss.svg";
 import materialui from "../../Images/Logo/materialui.svg";
 
 //  Tool
-import postman from "../../Images/Logo/postman.svg";
-import git from "../../Images/Logo/git.svg";
-import github from "../../Images/Logo/github.svg";
-import adobexd from "../../Images/Logo/adobexd.svg";
-import compass from "../../Images/Logo/compass.svg";
-import vscode from "../../Images/Logo/vscode.svg";
+import Postman from "../../Images/Logo/postman.svg";
+import Git from "../../Images/Logo/git.svg";
+import Github from "../../Images/Logo/github.svg";
+import Adobexd from "../../Images/Logo/adobexd.svg";
+import Compass from "../../Images/Logo/compass.svg";
+import Vscode from "../../Images/Logo/vscode.svg";
 
 import useSkills from "./useSkills";
 
 const Skills = () => {
-  const proficientSkills = useSkills(
-    nodejs,
-    reactjs,
-    expressjs,
-    mongodb,
-    redux,
-    js,
-    css,
-    html5
-  );
+  const proficientSkills = useSkills({
+    Nodejs,
+    Reactjs,
+    Expressjs,
+    Mongodb,
+    Redux,
+    JS,
+    CSS,
+    Html5,
+  });
 
-  const comfortableSkills = useSkills(
-    typescript,
-    nextjs,
-    tailwindcss,
-    materialui,
-    sass
-  );
+  const comfortableSkills = useSkills({
+    TS: typescript,
+    NextJs,
+    Tailwind: tailwindcss,
+    Material: materialui,
+    Sass,
+  });
 
-  const tools = useSkills(postman, compass, github, git, vscode, adobexd);
+  const tools = useSkills({ Postman, Compass, Github, Git, Vscode, Adobexd });
 
   return (
     <Fragment>
