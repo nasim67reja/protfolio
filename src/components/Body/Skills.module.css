@@ -1,0 +1,16 @@
+.heading-secondary {
+  color: var(--color-body-white);
+  font-size: 3rem;
+  padding-bottom: 1.5rem;
+  border-bottom: 1px solid rgba(60, 62, 65, 0.534);
+  font-weight: 500;
+}
+
+h4 {
+  color: var(--color-body-white);
+  color: #ff014f;
+  font-size: 2rem;
+  font-weight: 400;
+  margin-bottom: 2.5rem;
+  margin-top: 6rem;
+}

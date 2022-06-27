@@ -1,0 +1,47 @@
+.heading-primary {
+  font-size: 4.8rem;
+  color: var(--color-heading-wv);
+  line-height: 6.2rem;
+}
+.name {
+  color: #ff014f;
+}
+
+.heading-secondary {
+  color: var(--color-body-white);
+  font-size: 3.2rem;
+  margin: 2rem 0 5rem 0;
+}
+
+.description {
+  line-height: 2.7rem;
+  font-size: 1.8rem;
+  color: var(--color-body-white);
+  margin-bottom: 7rem;
+}
+.fingure {
+  font-size: 2.4rem;
+  margin-right: 1rem;
+}
+
+.btnList {
+  display: flex;
+  gap: 3rem;
+}
+.btn {
+  background: var(--gradient-box-w);
+  box-shadow: var(--shadow-white-3);
+  color: #ff014f;
+  padding: 1.5rem 3.5rem;
+  border: none;
+  font-size: 1.4rem;
+  font-weight: 600;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.btn:hover {
+  transition: all 0.3s;
+  background: #ff014f;
+  color: white;
+  transform: translate(2px, -5px);
+}
