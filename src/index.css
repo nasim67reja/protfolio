@@ -28,7 +28,7 @@ body {
 a:link,
 a:visited {
   text-decoration: none;
-  font-size: 2rem;
+  font-size: 1.6rem;
   font-weight: 500;
 }
 .link:link,
@@ -78,13 +78,24 @@ a:visited {
 .less-opacity {
   opacity: 0;
 }
+
 /* General */
-.flex {
-  display: flex;
-}
 
 .container {
   max-width: 136rem;
   padding: 0 3rem;
   margin: 0 auto;
+}
+.flex {
+  display: flex;
+}
+
+.grid {
+  display: grid;
+}
+.grid-2-cols {
+  grid-template-columns: repeat(2, 1fr);
+}
+.grid-3-cols {
+  grid-template-columns: repeat(3, 1fr);
 }
