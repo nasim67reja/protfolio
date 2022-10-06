@@ -99,3 +99,10 @@ a:visited {
 .grid-3-cols {
   grid-template-columns: repeat(3, 1fr);
 }
+
+/* Project */
+
+.active-btn {
+  color: #fff !important;
+  background-color: #000 !important;
+}
