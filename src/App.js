@@ -10,6 +10,7 @@ export default function App() {
   return (
     <Fragment>
       <MainHeader />
+
       <Routes>
         <Route path="/" element={<Navigate to="/home" replace />} />
         <Route path="/home" element={<Home />} />

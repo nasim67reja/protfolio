@@ -1,0 +1,58 @@
+.textbox {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  box-shadow: var(--shadow-white-3);
+  background: var(--gradient-box-w);
+  border-radius: 5px;
+  padding: 3rem;
+  font-size: 1.6rem;
+  line-height: 1.5;
+  color: var(--color-body-white);
+}
+
+.contactImg {
+  border-radius: 1rem;
+  border: none;
+  box-shadow: none;
+}
+
+.textbox h2 {
+  font-size: 3rem;
+  /* color: #1e2125; */
+  color: var(--color-heading-wv);
+}
+
+.textbox h4 {
+  margin-top: 0;
+  margin-bottom: 0;
+  color: var(--color-body-white);
+  font-size: 1.5rem;
+}
+
+.contactIcon {
+  display: flex;
+  gap: 2rem;
+  margin-top: 2rem;
+}
+.contactIcon a:link,
+.contactIcon a:visited {
+  box-shadow: var(--shadow-white-3);
+  background: var(--gradient-box-w);
+  color: var(--color-body-white);
+
+  border-radius: 5px;
+  padding: 2rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+}
+
+.contactIcon a:hover,
+.contactIcon a:active {
+  color: white;
+  background: var(--main-color);
+  transform: translateY(-1rem);
+}
