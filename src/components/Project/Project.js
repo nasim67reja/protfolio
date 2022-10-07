@@ -6,16 +6,18 @@ import Manage from "../../Images/projects/Manage.png";
 import Loopstudios from "../../Images/projects/Loopstudios.png";
 import Fylo from "../../Images/projects/Fylo.png";
 import Product from "../../Images/projects/Product.png";
+import Careocity from "../../Images/projects/Careocity.png";
+import { Link } from "react-router-dom";
 
 const Card = ({ tag, title, img }) => {
   return (
-    <div className={styles.card}>
+    <div className={`${styles.card} ani`}>
       <span>{tag}</span>
-      <div>{title}</div>
+      <div className={styles.title}>{title}</div>
       <div className={styles.imgbox}>
         <img src={img} alt="prject" />
       </div>
-      <button>view details ➡</button>
+      <Link to={`/project/${title}`}>view details ➡</Link>
     </div>
   );
 };
@@ -82,6 +84,13 @@ const Project = () => {
       </div>
 
       <div className={styles.cardBox}>
+        {clickedFullStack && (
+          <Card
+            tag="#MERN"
+            img={Careocity}
+            title="Careocity an e-commerce website using react,node,express & tailwindCss"
+          />
+        )}
         {clickedReactJs && (
           <Card
             tag="#REACTJS"
@@ -89,7 +98,6 @@ const Project = () => {
             title="Responsive landing page using Reactjs & tailwindCss"
           />
         )}
-        {clickedFullStack && <p> still not implemented</p>}
         {clickedFrontEnd && (
           <>
             <Card
@@ -126,6 +134,11 @@ const Project = () => {
         )}
         {clickedAll && (
           <>
+            <Card
+              tag="#MERN"
+              img={Careocity}
+              title="Careocity an e-commerce website using react,node,express & tailwindCss"
+            />
             <Card
               tag="#REACTJS"
               img={Loopstudios}

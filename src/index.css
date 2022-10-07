@@ -106,3 +106,21 @@ a:visited {
   color: #fff !important;
   background-color: #000 !important;
 }
+
+.ani {
+  animation-name: slidein;
+  animation-duration: 0.3s;
+  animation-timing-function: ease-in-out;
+}
+
+@keyframes slidein {
+  0% {
+    opacity: 0;
+    transform: translate(3rem, -3rem);
+  }
+
+  100% {
+    opacity: 1;
+    transform: translate(0rem, 0rem);
+  }
+}

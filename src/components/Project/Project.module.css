@@ -54,7 +54,7 @@
   color: var(--main-color);
   font-size: 1.5rem;
 }
-.card div {
+.title {
   font-size: 2rem;
   line-height: 1.5;
   margin: 1rem 0;

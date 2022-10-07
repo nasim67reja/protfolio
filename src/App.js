@@ -6,6 +6,7 @@ import Home from "./pages/Home";
 import Contact from "./pages/Contact";
 import { Footer } from "./components/Footer/Footer";
 import ProjectPage from "./pages/ProjectPage";
+import ProjectDetails from "./components/Project/ProjectDetails";
 
 export default function App() {
   return (
@@ -19,6 +20,7 @@ export default function App() {
         <Route path="/project" element={<ProjectPage />} />
 
         <Route path="/about" element={<p>This route is inot define yet</p>} />
+        <Route path="/project/:projectTitle" element={<ProjectDetails />} />
         <Route path="*" element={<Navigate to="/home" replace />} />
       </Routes>
       <Footer />

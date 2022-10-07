@@ -1,0 +1,11 @@
+.imgBox {
+  box-shadow: var(--shadow-white-3);
+  width: 80rem;
+  margin: 5rem 0;
+}
+.imgBox img {
+  border-radius: 5px;
+  /* height: 80vh; */
+  /* height: 150vh; */
+  /* object-fit: contain; */
+}
