@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/protfolio/static/css/main.811be06a.css",
-    "main.js": "/protfolio/static/js/main.a15d242f.js",
+    "main.js": "/protfolio/static/js/main.d6c691c9.js",
     "static/media/Loopstudios.png": "/protfolio/static/media/Loopstudios.dd1a5615a306bb63b9ef.png",
     "static/media/Product.png": "/protfolio/static/media/Product.87f5fb668a603274570a.png",
     "static/media/nasim2.jpg": "/protfolio/static/media/nasim2.9b50a8ea48de3bc0fd8f.jpg",
@@ -31,10 +31,10 @@
     "static/media/github.svg": "/protfolio/static/media/github.5084227bbe3fc0aeaac5abb6cb55f87c.svg",
     "static/media/materialui.svg": "/protfolio/static/media/materialui.07063455a65ec2a421bf326e7db7d48a.svg",
     "main.811be06a.css.map": "/protfolio/static/css/main.811be06a.css.map",
-    "main.a15d242f.js.map": "/protfolio/static/js/main.a15d242f.js.map"
+    "main.d6c691c9.js.map": "/protfolio/static/js/main.d6c691c9.js.map"
   },
   "entrypoints": [
     "static/css/main.811be06a.css",
-    "static/js/main.a15d242f.js"
+    "static/js/main.d6c691c9.js"
   ]
 }
