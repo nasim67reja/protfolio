@@ -27,8 +27,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Github Repo](https://github.com/nasim67reja/manage.github.io)
-- Live Site URL: [Live link](https://your-live-site-url.com)
+- Solution URL: [Github Repo](https://github.com/nasim67reja/protfolio)
+- Live Site URL: [Live link](https://nasim67reja.github.io/protfolio/)
 
 ### Built with
 
