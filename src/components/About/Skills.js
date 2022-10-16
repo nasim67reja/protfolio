@@ -67,6 +67,26 @@ const skills = [
   [
     {
       name: "Git",
+      percentage: "80%",
+    },
+    {
+      name: "VsCode",
+      percentage: "90%",
+    },
+    {
+      name: "Github",
+      percentage: "85%",
+    },
+    {
+      name: "Postman",
+      percentage: "70%",
+    },
+    {
+      name: "AdobeXd",
+      percentage: "55%",
+    },
+    {
+      name: "Chrome dev tools",
       percentage: "70%",
     },
   ],

@@ -23,6 +23,7 @@ html {
 body {
   font-family: "Rubik", sans-serif;
   background-color: var(--color-primary);
+  color: var(--color-heading-wv);
 }
 
 a:link,
