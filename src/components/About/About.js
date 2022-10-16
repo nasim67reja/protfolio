@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import styles from "./About.module.css";
+import Skills from "./Skills";
 
 const About = () => {
   const [skillBox, setSkillBox] = useState(true);
@@ -15,6 +16,7 @@ const About = () => {
       <ul className={styles.btnlist}>
         <li>
           <button
+            className={skillBox ? styles.active : null}
             onClick={() => {
               setSkillBox(true);
               setExperience(false);
@@ -26,6 +28,7 @@ const About = () => {
         </li>
         <li>
           <button
+            className={experience ? styles.active : null}
             onClick={() => {
               setSkillBox(false);
               setExperience(true);
@@ -37,6 +40,7 @@ const About = () => {
         </li>
         <li>
           <button
+            className={education ? styles.active : null}
             onClick={() => {
               setSkillBox(false);
               setExperience(false);
@@ -47,8 +51,9 @@ const About = () => {
           </button>
         </li>
       </ul>
+      {skillBox && <Skills />}
       {experience && (
-        <div className={styles.aboutBox}>
+        <div className={styles.box}>
           <div>
             <div className={styles.header}>
               <span>2007 - 2010</span>

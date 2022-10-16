@@ -1,6 +1,6 @@
 import React from "react";
 import styles from "./MainHeader.module.css";
-import nasim from "../../Images/nasim2.jpg";
+import nasim from "../../Images/nasim4.png";
 import Navbar from "./Navbar";
 
 const MainHeader = () => {
