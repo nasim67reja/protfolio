@@ -1,17 +1,22 @@
 {
   "files": {
-    "main.css": "/protfolio/static/css/main.73fdea4d.css",
-    "main.js": "/protfolio/static/js/main.28edae6e.js",
+    "main.css": "/protfolio/static/css/main.36cb061b.css",
+    "main.js": "/protfolio/static/js/main.9e60e0ea.js",
+    "static/media/NetflixFull.png": "/protfolio/static/media/NetflixFull.70d44d316e0c1b6710be.png",
     "static/media/LoopstudiosFull.png": "/protfolio/static/media/LoopstudiosFull.98760d72b226a6d82ab7.png",
     "static/media/carocityFull.png": "/protfolio/static/media/carocityFull.761a65efb12da2cad9cb.png",
+    "static/media/Netflix.png": "/protfolio/static/media/Netflix.023d6c50025ea7d3ec37.png",
     "static/media/Loopstudios.png": "/protfolio/static/media/Loopstudios.dd1a5615a306bb63b9ef.png",
     "static/media/EasyBankFull.png": "/protfolio/static/media/EasyBankFull.3f49a0d5efcf90ced1fd.png",
     "static/media/nasim4.png": "/protfolio/static/media/nasim4.6b946ffcb0b433870fa1.png",
     "static/media/Careocity.png": "/protfolio/static/media/Careocity.0f9258de2c1c51705556.png",
     "static/media/Product.png": "/protfolio/static/media/Product.87f5fb668a603274570a.png",
+    "static/media/BookmarkFull.png": "/protfolio/static/media/BookmarkFull.71ec388b2886fac841eb.png",
     "static/media/easyBank.png": "/protfolio/static/media/easyBank.06254564acdec338bc59.png",
-    "static/media/Manage.png": "/protfolio/static/media/Manage.21f0061715add9e2f315.png",
+    "static/media/FyloFull.png": "/protfolio/static/media/FyloFull.b69b65df9bb33a4acdab.png",
+    "static/media/ManageFull.png": "/protfolio/static/media/ManageFull.21f0061715add9e2f315.png",
     "static/media/Fylo.png": "/protfolio/static/media/Fylo.418086f1946c10591dcc.png",
+    "static/media/Manage.png": "/protfolio/static/media/Manage.1dc3545484585efb0ab6.png",
     "static/media/Bookmark.png": "/protfolio/static/media/Bookmark.849a5f118f45c8c523ff.png",
     "static/media/contact.png": "/protfolio/static/media/contact.8ddfbfd11798f881db54.png",
     "static/media/nodejs.svg": "/protfolio/static/media/nodejs.9a54ea2cad6e7d76e0b9ceda3bfb4beb.svg",
@@ -34,11 +39,11 @@
     "static/media/js.svg": "/protfolio/static/media/js.4e7f61d9190c3ed22a09a5f0159d84eb.svg",
     "static/media/github.svg": "/protfolio/static/media/github.5084227bbe3fc0aeaac5abb6cb55f87c.svg",
     "static/media/materialui.svg": "/protfolio/static/media/materialui.07063455a65ec2a421bf326e7db7d48a.svg",
-    "main.73fdea4d.css.map": "/protfolio/static/css/main.73fdea4d.css.map",
-    "main.28edae6e.js.map": "/protfolio/static/js/main.28edae6e.js.map"
+    "main.36cb061b.css.map": "/protfolio/static/css/main.36cb061b.css.map",
+    "main.9e60e0ea.js.map": "/protfolio/static/js/main.9e60e0ea.js.map"
   },
   "entrypoints": [
-    "static/css/main.73fdea4d.css",
-    "static/js/main.28edae6e.js"
+    "static/css/main.36cb061b.css",
+    "static/js/main.9e60e0ea.js"
   ]
 }
