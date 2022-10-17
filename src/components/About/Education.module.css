@@ -1,0 +1,67 @@
+.box {
+  margin-top: 10rem;
+  display: flex;
+  justify-content: space-between;
+  gap: 4rem;
+  animation: opactiy 300ms ease-in-out;
+}
+@keyframes opactiy {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+.aboutCol {
+  display: flex;
+  gap: 3rem;
+  margin-top: 4rem;
+}
+.line {
+  width: 0.5rem;
+  border-radius: 2rem;
+  height: 80rem;
+  background-color: #d9dee2;
+}
+
+/* textbox */
+.textbox {
+  background: var(--gradient-box-w);
+  box-shadow: var(--shadow-white-3);
+  padding: 4rem 6rem;
+  border-radius: 1rem;
+  font-size: 1.8rem;
+  line-height: 1.7;
+  max-width: 60rem;
+  position: relative;
+  margin-bottom: 4rem;
+}
+.textbox::before {
+  content: "";
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+  border: 5px solid #d9dee2;
+  background: #ecf0f3;
+  position: absolute;
+  left: -4.4rem;
+  top: 5rem;
+}
+
+.textbox::after {
+  content: "";
+  width: 25px;
+  height: 6px;
+  background-color: #d9dee2;
+  position: absolute;
+  left: -2.3rem;
+  top: 5.8rem;
+}
+.textbox h4 {
+  font-size: 2.4rem;
+  margin: 0;
+  color: var(--color-heading-wv);
+  font-weight: 500;
+}

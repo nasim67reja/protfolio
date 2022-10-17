@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import styles from "./About.module.css";
+import Education from "./Education";
 import Experience from "./Experience";
 import Skills from "./Skills";
 
@@ -54,6 +55,7 @@ const About = () => {
       </ul>
       {skillBox && <Skills />}
       {experience && <Experience />}
+      {education && <Education />}
     </div>
   );
 };
