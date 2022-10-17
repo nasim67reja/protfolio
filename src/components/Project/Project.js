@@ -7,6 +7,8 @@ import Loopstudios from "../../Images/projects/Loopstudios.png";
 import Fylo from "../../Images/projects/Fylo.png";
 import Product from "../../Images/projects/Product.png";
 import Careocity from "../../Images/projects/Careocity.png";
+import Netflix from "../../Images/projects/Netflix.png";
+
 import { Link } from "react-router-dom";
 
 const Card = ({ tag, title, img }) => {
@@ -85,11 +87,14 @@ const Project = () => {
 
       <div className={styles.cardBox}>
         {clickedFullStack && (
-          <Card
-            tag="#MERN"
-            img={Careocity}
-            title="Careocity an e-commerce website using react,node,express & tailwindCss"
-          />
+          <>
+            <Card
+              tag="#MERN"
+              img={Careocity}
+              title="Careocity an e-commerce website using react,node,express & tailwindCss"
+            />
+            <Card tag="#REACTJS&FIREBASE" img={Netflix} title="Netflix Clone" />
+          </>
         )}
         {clickedReactJs && (
           <Card
@@ -139,6 +144,7 @@ const Project = () => {
               img={Careocity}
               title="Careocity an e-commerce website using react,node,express & tailwindCss"
             />
+            <Card tag="#REACTJS&FIREBASE" img={Netflix} title="Netflix Clone" />
             <Card
               tag="#REACTJS"
               img={Loopstudios}

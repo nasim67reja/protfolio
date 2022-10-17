@@ -65,3 +65,12 @@
   color: var(--color-heading-wv);
   font-weight: 500;
 }
+.textbox span {
+  font-size: 1.5rem;
+  opacity: 0.8;
+}
+
+.textbox div {
+  line-height: 1.4;
+  margin: 5px 0;
+}

@@ -31,13 +31,12 @@ const ProjectDetails = () => {
               ))}
             </ul>
             <h3>The Brief</h3>
-            <p>
-              To do list apps are everywhere, but my biggest issue with them all
-              is how bloated they all are. Social login, user tracking, email
-              notifications. The list goes on. I wanted something really simple
-              to get the job done, so I built it.
-            </p>
 
+            <p>{ProjectData.overview || null}</p>
+            <ul>
+              {ProjectData.description &&
+                ProjectData.description.map((el) => <li>{el}</li>)}
+            </ul>
             <div className={styles.links}>
               <a className={`${styles.primary}`} href={ProjectData.link}>
                 View Site
