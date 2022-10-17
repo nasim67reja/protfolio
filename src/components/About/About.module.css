@@ -76,7 +76,7 @@
 .line {
   width: 0.5rem;
   border-radius: 2rem;
-  height: 100vh;
+  height: 131rem;
   background-color: #d9dee2;
 }
 /* textbox */
@@ -87,7 +87,7 @@
   border-radius: 1rem;
   font-size: 1.8rem;
   line-height: 1.7;
-  width: 50rem;
+  width: 55rem;
   position: relative;
   margin-bottom: 4rem;
 }
@@ -115,7 +115,6 @@
 
 .textbox h4 {
   margin: 0;
-  margin-bottom: 1rem;
 }
 .courseLink:link,
 .courseLink:visited {
@@ -139,9 +138,19 @@
 .credentials:active {
   opacity: 0.7;
 }
+.credentials ion-icon {
+  margin-left: 5px;
+  transform: translateY(1px);
+}
+h4 span {
+  margin-left: 10px;
+  display: inline-block;
+  transform: translateY(-2px);
+}
 
 .textbox span {
-  font-size: 1.5rem;
+  font-size: 1.4rem;
+  opacity: 0.8;
 }
 .textbox h5 {
   font-size: 2rem;
