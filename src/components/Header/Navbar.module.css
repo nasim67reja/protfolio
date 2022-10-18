@@ -4,3 +4,18 @@
   gap: 4rem;
 }
 
+@media (max-width: 34em) {
+  .navList {
+    gap: 3rem;
+  }
+}
+
+@media (max-width: 27.6em) {
+  .navList {
+    gap: 2rem;
+  }
+  .navList a:link,
+  .navList a:visited {
+    font-size: 1.4rem;
+  }
+}

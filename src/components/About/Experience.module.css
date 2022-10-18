@@ -1,7 +1,8 @@
 .box {
   margin-top: 10rem;
-  display: flex;
-  justify-content: space-between;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  /* justify-content: space-between; */
   gap: 4rem;
   animation: opactiy 300ms ease-in-out;
 }
@@ -47,7 +48,6 @@
   border-radius: 1rem;
   font-size: 1.8rem;
   line-height: 1.7;
-  width: 55rem;
   position: relative;
   margin-bottom: 4rem;
 }

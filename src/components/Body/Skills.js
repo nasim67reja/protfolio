@@ -14,10 +14,12 @@ import Redux from "../../Images/Logo/redux.svg";
 
 // comfortable
 import Sass from "../../Images/Logo/sass.svg";
-import typescript from "../../Images/Logo/typescript.svg";
-import NextJs from "../../Images/Logo/nextjs.svg";
+// import typescript from "../../Images/Logo/typescript.svg";
+// import NextJs from "../../Images/Logo/nextjs.svg";
 import tailwindcss from "../../Images/Logo/tailwindcss.svg";
 import materialui from "../../Images/Logo/materialui.svg";
+import firebase from "../../Images/Logo/firebase.svg";
+import bootstrap from "../../Images/Logo/bootstrap.svg";
 
 //  Tool
 import Postman from "../../Images/Logo/postman.svg";
@@ -31,21 +33,21 @@ import useSkills from "./useSkills";
 
 const Skills = () => {
   const proficientSkills = useSkills({
-    Nodejs,
+    Html5,
+    CSS,
+    JS,
     Reactjs,
+    Tailwind: tailwindcss,
+    Redux,
+    Nodejs,
     Expressjs,
     Mongodb,
-    Redux,
-    JS,
-    CSS,
-    Html5,
   });
 
   const comfortableSkills = useSkills({
-    TS: typescript,
-    NextJs,
-    Tailwind: tailwindcss,
     Material: materialui,
+    firebase,
+    bootstrap,
     Sass,
   });
 

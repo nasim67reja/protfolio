@@ -125,3 +125,35 @@ a:visited {
     transform: translate(0rem, 0rem);
   }
 }
+
+/* Responsive design */
+/* 1500px */
+@media (max-width: 94em) {
+  html {
+    font-size: 58%;
+  }
+}
+/* //1200px */
+@media (max-width: 75em) {
+  html {
+    font-size: 54%;
+  }
+}
+
+@media (max-width: 69em) {
+  html {
+    font-size: 50%;
+  }
+}
+
+@media (max-width: 45em) {
+  html {
+    font-size: 45%;
+  }
+}
+
+@media (max-width: 25em) {
+  html {
+    font-size: 40%;
+  }
+}

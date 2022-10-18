@@ -49,6 +49,15 @@
   color: var(--color-body-white);
   border-radius: 5px;
 }
+@media (max-width: 63em) {
+  .cardBox {
+    gap: 4rem;
+  }
+  .card {
+    width: 34rem;
+    padding: 3rem;
+  }
+}
 
 .card span {
   color: var(--main-color);

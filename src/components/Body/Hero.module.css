@@ -1,5 +1,4 @@
 .hero {
-  margin-top: 15rem;
   margin-bottom: 5rem;
 }
 .container {
@@ -16,4 +15,17 @@
   box-shadow: var(--shadow-white-3);
   background: var(--gradient-box-w);
   border-radius: 5px;
+}
+
+/* Responsive design */
+
+@media (max-width: 60em) {
+  .container {
+    grid-template-columns: 1fr;
+  }
+  .responsiveInfo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
 }

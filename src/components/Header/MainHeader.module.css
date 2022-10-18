@@ -1,5 +1,5 @@
 header {
-  margin-bottom: 15rem;
+  margin-bottom: 10rem;
 }
 .container {
   max-width: 86rem;
@@ -38,4 +38,26 @@ img {
   color: var(--color-heading-wv);
   font-size: 3.2rem;
   font-weight: 600;
+}
+
+@media (max-width: 34em) {
+  .flex {
+    gap: 3rem;
+  }
+  .header-img-box {
+    max-width: 8rem;
+    height: 8rem;
+  }
+  .header-content-box {
+    padding: 0;
+  }
+  .heading-secondary {
+    font-size: 2.6rem;
+    font-weight: 500;
+  }
+}
+@media (max-width: 27.6em) {
+  .flex {
+    gap: 2rem;
+  }
 }

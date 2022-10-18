@@ -7,7 +7,7 @@ const Hero = () => {
   return (
     <section className={styles.hero}>
       <div className={styles.container}>
-        <div>
+        <div className={styles.responsiveInfo}>
           <Info />
         </div>
         <div className={styles.heroSkills}>
