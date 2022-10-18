@@ -5,7 +5,7 @@ import Form from "./Form";
 const ContactPage = () => {
   return (
     <section className={styles.contact}>
-      <div className="container grid grid-2-cols">
+      <div className={styles.container}>
         <div className={styles.textBox}>
           <Textbox />
         </div>

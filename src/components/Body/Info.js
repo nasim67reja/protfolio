@@ -21,7 +21,14 @@ const Info = () => {
         languages, development frameworks and third-party libraries.
       </p>
       <div className={styles.btnList}>
-        <button className={styles.btn}>Download My CV</button>
+        <a
+          href="https://drive.google.com/file/d/1Ska4peWksNLxh9pd9BLiNCZ-uRq-FREP/view?usp=sharing"
+          target="_blank"
+          rel="noreferrer"
+          className={styles.btn}
+        >
+          Download My CV
+        </a>
         <Link to="/contact" className={styles.btn}>
           Contact Me
         </Link>

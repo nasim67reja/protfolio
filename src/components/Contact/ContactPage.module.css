@@ -1,3 +1,10 @@
+.container {
+  max-width: 136rem;
+  padding: 0 3rem;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
 .textBox {
   /* background-color: yellow; */
   padding: 1rem 3rem;
@@ -5,4 +12,12 @@
 .formBox {
   /* border: 2px solid black; */
   padding: 1rem 3rem;
+}
+
+@media (max-width: 60em) {
+  .container {
+    grid-template-columns: 1fr;
+    max-width: 70rem;
+    gap: 4rem;
+  }
 }
