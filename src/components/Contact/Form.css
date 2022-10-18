@@ -16,9 +16,9 @@ form .message {
   font-size: 1.6rem;
 }
 .control-group {
-  display: flex;
-  justify-content: space-between;
-  gap: 2rem;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 3rem;
 }
 
 .form-control input,
@@ -97,4 +97,27 @@ form .message {
   color: #b40e0e;
   margin-top: 5px;
   font-size: 1.4rem;
+}
+
+@media (max-width: 60em) {
+  form {
+    gap: 2rem;
+  }
+  .form-control input,
+  .form-control textarea {
+    padding: 1rem;
+    font-size: 1.6rem;
+  }
+  .control-group {
+    gap: 2rem;
+  }
+  .form-btn {
+    padding: 1rem;
+    font-size: 1.8rem;
+    letter-spacing: 0.5px;
+  }
+  .form-btn svg {
+    width: 16px;
+    height: 16px;
+  }
 }

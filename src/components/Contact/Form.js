@@ -158,7 +158,7 @@ const Form = (props) => {
         ></textarea>
 
         {inputMessage.hasError && (
-          <p className="error-text">Name must not be empty.</p>
+          <p className="error-text">Message must not be empty.</p>
         )}
       </div>
       <div className="form-actions">
@@ -186,38 +186,3 @@ const Form = (props) => {
 };
 
 export default Form;
-
-// export const ContactUs = () => {
-
-//   const sendEmail = (e) => {
-//     e.preventDefault();
-
-//     emailjs
-//       .sendForm(
-//         "service_85av4sx",
-//         "template_zplumep",
-//         form.current,
-//         "cKhVsAvN7VbZ_A_z7"
-//       )
-//       .then(
-//         (result) => {
-//           console.log(result.text);
-//         },
-//         (error) => {
-//           console.log(error.text);
-//         }
-//       );
-//   };
-
-//   return (
-//     <form ref={form} onSubmit={sendEmail}>
-//       <label>Name</label>
-//       <input type="text" name="user_name" />
-//       <label>Email</label>
-//       <input type="email" name="user_email" />
-//       <label>Message</label>
-//       <textarea name="message" />
-//       <input type="submit" value="Send" />
-//     </form>
-//   );
-// };

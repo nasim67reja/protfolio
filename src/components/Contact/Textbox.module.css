@@ -1,7 +1,7 @@
 .textbox {
   display: flex;
   flex-direction: column;
-  gap: 2rem;
+  gap: 1.6rem;
   box-shadow: var(--shadow-white-3);
   background: var(--gradient-box-w);
   border-radius: 5px;
@@ -40,7 +40,6 @@
   box-shadow: var(--shadow-white-3);
   background: var(--gradient-box-w);
   color: var(--color-body-white);
-
   border-radius: 5px;
   padding: 1.6rem;
   display: flex;
@@ -55,4 +54,21 @@
   color: white;
   background: var(--main-color);
   transform: translateY(-1rem);
+}
+
+/* Responsive design */
+
+@media (max-width: 60em) {
+  .textbox h2 {
+    font-size: 2.4rem;
+    margin-top: 2rem;
+  }
+  .contactIcon {
+    justify-content: center;
+    gap: 3rem;
+  }
+  .contactIcon ion-icon {
+    width: 2.8rem;
+    height: 2.8rem;
+  }
 }
