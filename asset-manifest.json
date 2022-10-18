@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/protfolio/static/css/main.36cb061b.css",
-    "main.js": "/protfolio/static/js/main.9e60e0ea.js",
+    "main.css": "/protfolio/static/css/main.228b3ea7.css",
+    "main.js": "/protfolio/static/js/main.55d0e006.js",
     "static/media/NetflixFull.png": "/protfolio/static/media/NetflixFull.70d44d316e0c1b6710be.png",
     "static/media/LoopstudiosFull.png": "/protfolio/static/media/LoopstudiosFull.98760d72b226a6d82ab7.png",
     "static/media/carocityFull.png": "/protfolio/static/media/carocityFull.761a65efb12da2cad9cb.png",
@@ -24,7 +24,7 @@
     "static/media/sass.svg": "/protfolio/static/media/sass.84c0434cf143925b9b4aef0e37c7e1bc.svg",
     "static/media/git.svg": "/protfolio/static/media/git.24c449f45ac1ab5695fc431874973f87.svg",
     "static/media/reactjs.svg": "/protfolio/static/media/reactjs.99968e1f4d0412d16dc4c870f4ceb4a7.svg",
-    "static/media/nextjs.svg": "/protfolio/static/media/nextjs.bab92e4cdfa8df8f9959288cb36f3ba5.svg",
+    "static/media/firebase.svg": "/protfolio/static/media/firebase.f4f7bca90d5c608ad3db62160592ee06.svg",
     "static/media/mongodb.svg": "/protfolio/static/media/mongodb.464a4e8bb6d791cfa542bd7b0faa2507.svg",
     "static/media/redux.svg": "/protfolio/static/media/redux.d81fad54282cfb5c2e14133ee4061ee0.svg",
     "static/media/adobexd.svg": "/protfolio/static/media/adobexd.90ebfff7b902ac3978bc8ddf7d2d4533.svg",
@@ -33,17 +33,17 @@
     "static/media/tailwindcss.svg": "/protfolio/static/media/tailwindcss.db193e8a564ccf499c36abbd2c965d52.svg",
     "static/media/css.svg": "/protfolio/static/media/css.aec31ad6887c3a820a1b3b8e2b9d9937.svg",
     "static/media/expressjs.svg": "/protfolio/static/media/expressjs.a09b2931aa9e91f18fcbead5cc7bb286.svg",
-    "static/media/typescript.svg": "/protfolio/static/media/typescript.7178f9e6e4be8fa97fff8ca16cb17dea.svg",
     "index.html": "/protfolio/index.html",
     "static/media/vscode.svg": "/protfolio/static/media/vscode.ccdcf4067a67bc77d69f2c0fb9b3ab24.svg",
+    "static/media/bootstrap.svg": "/protfolio/static/media/bootstrap.d1ee6a52935d23cb9c25dde01657ef84.svg",
     "static/media/js.svg": "/protfolio/static/media/js.4e7f61d9190c3ed22a09a5f0159d84eb.svg",
     "static/media/github.svg": "/protfolio/static/media/github.5084227bbe3fc0aeaac5abb6cb55f87c.svg",
     "static/media/materialui.svg": "/protfolio/static/media/materialui.07063455a65ec2a421bf326e7db7d48a.svg",
-    "main.36cb061b.css.map": "/protfolio/static/css/main.36cb061b.css.map",
-    "main.9e60e0ea.js.map": "/protfolio/static/js/main.9e60e0ea.js.map"
+    "main.228b3ea7.css.map": "/protfolio/static/css/main.228b3ea7.css.map",
+    "main.55d0e006.js.map": "/protfolio/static/js/main.55d0e006.js.map"
   },
   "entrypoints": [
-    "static/css/main.36cb061b.css",
-    "static/js/main.9e60e0ea.js"
+    "static/css/main.228b3ea7.css",
+    "static/js/main.55d0e006.js"
   ]
 }
