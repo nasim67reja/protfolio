@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/protfolio/static/css/main.a5992025.css",
-    "main.js": "/protfolio/static/js/main.fdb5fd77.js",
+    "main.css": "/protfolio/static/css/main.b57a04d2.css",
+    "main.js": "/protfolio/static/js/main.7bfc469d.js",
     "static/media/NetflixFull.png": "/protfolio/static/media/NetflixFull.70d44d316e0c1b6710be.png",
     "static/media/LoopstudiosFull.png": "/protfolio/static/media/LoopstudiosFull.98760d72b226a6d82ab7.png",
     "static/media/carocityFull.png": "/protfolio/static/media/carocityFull.761a65efb12da2cad9cb.png",
@@ -39,11 +39,11 @@
     "static/media/js.svg": "/protfolio/static/media/js.4e7f61d9190c3ed22a09a5f0159d84eb.svg",
     "static/media/github.svg": "/protfolio/static/media/github.5084227bbe3fc0aeaac5abb6cb55f87c.svg",
     "static/media/materialui.svg": "/protfolio/static/media/materialui.07063455a65ec2a421bf326e7db7d48a.svg",
-    "main.a5992025.css.map": "/protfolio/static/css/main.a5992025.css.map",
-    "main.fdb5fd77.js.map": "/protfolio/static/js/main.fdb5fd77.js.map"
+    "main.b57a04d2.css.map": "/protfolio/static/css/main.b57a04d2.css.map",
+    "main.7bfc469d.js.map": "/protfolio/static/js/main.7bfc469d.js.map"
   },
   "entrypoints": [
-    "static/css/main.a5992025.css",
-    "static/js/main.fdb5fd77.js"
+    "static/css/main.b57a04d2.css",
+    "static/js/main.7bfc469d.js"
   ]
 }
