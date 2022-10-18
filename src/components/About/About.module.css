@@ -52,26 +52,14 @@
   color: var(--main-color) !important;
 }
 
-.box {
-  margin-top: 10rem;
-  display: flex;
-  justify-content: center;
-  gap: 4rem;
-  animation: opactiy 300ms ease-in-out;
-}
-@keyframes opactiy {
-  from {
-    opacity: 0;
-  }
-  to {
-    opacity: 1;
-  }
-}
+/* Responsive design */
 
-/* Skills Box */
-.boxLeft {
-  width: 48%;
-}
-.boxRight {
-  width: 48%;
+@media (max-width: 60em) {
+  .header h2 {
+    font-size: 3.2rem;
+  }
+  .btnlist button {
+    padding: 2rem 3.2rem;
+    font-size: 1.8rem;
+  }
 }

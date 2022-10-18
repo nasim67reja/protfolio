@@ -108,10 +108,10 @@ const Proficient = ({ Header, element }) => {
 const Skills = () => {
   return (
     <div className={styles.box}>
-      <div className={styles.boxLeft}>
+      <div>
         <Proficient Header="Devlopment Skill" element={skills[0]} />
       </div>
-      <div className={styles.boxRight}>
+      <div>
         <Proficient Header="Tools" element={skills[1]} />
       </div>
     </div>
