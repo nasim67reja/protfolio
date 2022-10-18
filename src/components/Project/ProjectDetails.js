@@ -33,7 +33,7 @@ const ProjectDetails = () => {
             <h3>The Brief</h3>
 
             <p>{ProjectData.overview || null}</p>
-            <ul>
+            <ul className={styles.projectDes}>
               {ProjectData.description &&
                 ProjectData.description.map((el) => <li>{el}</li>)}
             </ul>
