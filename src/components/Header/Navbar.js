@@ -2,7 +2,7 @@ import { NavLink } from "react-router-dom";
 import styles from "./Navbar.module.css";
 
 const Navbar = () => {
-  const navItem = ["home", "project", "about", "articles", "contact"];
+  const navItem = ["home", "projects", "about", "articles", "contact"];
 
   return (
     <nav>

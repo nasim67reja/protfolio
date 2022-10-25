@@ -41,13 +41,9 @@
   grid-template-columns: repeat(4, 1fr);
 }
 .card {
-  /* width: 35rem; */
-  /* padding: 4rem; */
   width: 30rem;
   padding: 2rem;
-
   box-shadow: var(--shadow-white-3);
-  /* background: var(--gradient-box-w); */
   background-color: #fff;
   color: var(--color-body-white);
   border-radius: 5px;
@@ -55,15 +51,6 @@
   flex-direction: column;
   justify-content: space-between;
 }
-/* @media (max-width: 63em) {
-  .cardBox {
-    gap: 4rem;
-  }
-  .card {
-    width: 34rem;
-    padding: 3rem;
-  }
-} */
 
 .card span {
   color: var(--main-color);
@@ -103,4 +90,38 @@
 }
 .card button:hover {
   color: var(--main-color);
+}
+
+/* Responsive design */
+
+@media (max-width: 67em) {
+  .cardBox {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+}
+
+@media (max-width: 51em) {
+  .header {
+    margin-bottom: 4rem;
+    gap: 4rem;
+    flex-direction: column;
+  }
+  .headerLeft span {
+    font-size: 1.4rem;
+  }
+
+  .headerLeft h1 {
+    margin-top: 1rem;
+    font-size: 2.8rem;
+  }
+  .btnBox {
+    gap: 1.5rem;
+  }
+  .btnBox button {
+    padding: 1rem 2rem;
+    border-radius: 1rem;
+    font-size: 1.4rem;
+  }
 }

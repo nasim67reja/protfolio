@@ -134,13 +134,13 @@ a:visited {
   }
 }
 /* //1200px */
-@media (max-width: 75em) {
+@media (max-width: 78em) {
   html {
     font-size: 54%;
   }
 }
 
-@media (max-width: 69em) {
+@media (max-width: 73em) {
   html {
     font-size: 50%;
   }

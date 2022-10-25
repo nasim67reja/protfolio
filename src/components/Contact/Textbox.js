@@ -9,7 +9,7 @@ const Textbox = () => {
       <h2>Nasim Reja</h2>
       <p>a Full Stack web developer.</p>
       <div>
-        I am available for freelance work. Connect with me via and call in to my
+        I am available for remote job. Connect with me linedin and call in to my
         account.
       </div>
       <div>
@@ -22,7 +22,7 @@ const Textbox = () => {
           <a href="https://twitter.com/Nasimreja97">
             <ion-icon size="large" name="logo-twitter"></ion-icon>
           </a>
-          <a href="https://www.facebook.com/nasim.reja.102/">
+          <a href="https://www.facebook.com/profile.php?id=100087072401477">
             <ion-icon size="large" name="logo-facebook"></ion-icon>
           </a>
           <a href="https://github.com/nasim67reja">
