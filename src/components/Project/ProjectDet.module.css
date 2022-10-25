@@ -50,25 +50,11 @@
 
 .rightColumn p {
   color: var(--color-body-white);
-<<<<<<< HEAD
   font-size: 2rem;
   line-height: 1.8;
   margin-bottom: 2rem;
 }
-.rightColumn ul {
-  list-style: inside;
-  display: flex;
-  flex-direction: column;
-  gap: 1.2rem;
-  font-size: 1.7rem;
-  line-height: 1.4;
-  opacity: 0.8;
-  margin-bottom: 4rem;
-=======
-  font-size: 1.8rem;
-  line-height: 1.6;
-  margin-bottom: 3rem;
-}
+
 .projectDes {
   display: flex;
   flex-direction: column;
@@ -78,7 +64,6 @@
   list-style: inside;
   margin-bottom: 3rem;
   color: var(--color-heading-wv);
->>>>>>> cc40ad0b981c23603b010b67fca9ed9969ffd76e
 }
 .links {
   display: flex;
