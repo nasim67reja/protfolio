@@ -51,6 +51,11 @@ export const data = [
       "React Router",
       "Axios",
     ],
+    overview: "A Web app where users can see latest movies and web series.",
+    description: [
+      "A user can sign in & sign up by providing their credentials.",
+      "After successfully sign in or sign up, a user can save movies in his cart",
+    ],
   },
   {
     name: "Loopstudios",
@@ -60,6 +65,11 @@ export const data = [
     linkGithub: "https://github.com/nasim67reja/Loopstudios.github.io",
     image: LoopstudiosFull,
     technology: ["ReactJs", "TailwindCss"],
+    overview: "A Responsive landing page",
+    description: [
+      "View the optimal layout for the site depending on their device's screen size",
+      "See hover states for all interactive elements on the page",
+    ],
   },
   {
     name: "Easy Bank",
@@ -69,6 +79,15 @@ export const data = [
     linkGithub: "https://github.com/nasim67reja/Easy_Bank.Github.Io",
     image: EasyBankFull,
     technology: ["Html5", "Css3"],
+    overview: "A Responsive landing page",
+    description: [
+      "View the optimal layout for the site depending on their device's screen size",
+      "See hover states for all interactive elements on the page",
+      "User can sign in and sign up accounts",
+      "User also can send money to other account",
+      "User can see his transaction history and balance and all the operation in a beautiful dashboard",
+      "Demo account username-(nr) and password-(1111)",
+    ],
   },
   {
     name: "A Simple Bookmark Manager",
@@ -78,6 +97,11 @@ export const data = [
     linkGithub: "https://github.com/nasim67reja/Bookmark.github.io",
     image: BookmarkFUll,
     technology: ["Html5", "Css3"],
+    overview: "A Responsive landing page",
+    description: [
+      "View the optimal layout for the site depending on their device's screen size",
+      "See hover states for all interactive elements on the page",
+    ],
   },
   {
     name: "Manage",
@@ -87,6 +111,11 @@ export const data = [
     linkGithub: "https://github.com/nasim67reja/manage.github.io",
     image: ManageFull,
     technology: ["Html5", "Css3"],
+    overview: "A Responsive landing page",
+    description: [
+      "View the optimal layout for the site depending on their device's screen size",
+      "See hover states for all interactive elements on the page",
+    ],
   },
   {
     name: "Fylo-land",
@@ -96,6 +125,11 @@ export const data = [
     linkGithub: "https://github.com/nasim67reja/fylo-land.github.io",
     image: FyloFull,
     technology: ["Html5", "Css3"],
+    overview: "A Responsive landing page",
+    description: [
+      "View the optimal layout for the site depending on their device's screen size",
+      "See hover states for all interactive elements on the page",
+    ],
   },
   {
     name: "Sneakers",
@@ -105,5 +139,10 @@ export const data = [
     linkGithub: "https://github.com/nasim67reja/Ecommerce.github.io",
     image: Product,
     technology: ["Html5", "Css3"],
+    overview: "A Responsive landing page",
+    description: [
+      "View the optimal layout for the site depending on their device's screen size",
+      "See hover states for all interactive elements on the page",
+    ],
   },
 ];

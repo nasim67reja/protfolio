@@ -12,7 +12,7 @@ const About = () => {
   return (
     <div className="container">
       <div className={styles.header}>
-        <span>7+ years of experience</span>
+        <span>1+ years of learning experience</span>
         <h2>My Resume</h2>
       </div>
       <ul className={styles.btnlist}>
