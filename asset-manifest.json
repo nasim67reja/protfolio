@@ -1,10 +1,10 @@
 {
   "files": {
     "main.css": "/protfolio/static/css/main.159d8571.css",
-    "main.js": "/protfolio/static/js/main.5167c122.js",
+    "main.js": "/protfolio/static/js/main.4d2ccce4.js",
+    "static/media/carocityFull.png": "/protfolio/static/media/carocityFull.e18e4cc76167447f3603.png",
     "static/media/NetflixFull.png": "/protfolio/static/media/NetflixFull.70d44d316e0c1b6710be.png",
     "static/media/LoopstudiosFull.png": "/protfolio/static/media/LoopstudiosFull.98760d72b226a6d82ab7.png",
-    "static/media/carocityFull.png": "/protfolio/static/media/carocityFull.761a65efb12da2cad9cb.png",
     "static/media/Netflix.png": "/protfolio/static/media/Netflix.023d6c50025ea7d3ec37.png",
     "static/media/Loopstudios.png": "/protfolio/static/media/Loopstudios.dd1a5615a306bb63b9ef.png",
     "static/media/EasyBankFull.png": "/protfolio/static/media/EasyBankFull.3f49a0d5efcf90ced1fd.png",
@@ -40,10 +40,10 @@
     "static/media/github.svg": "/protfolio/static/media/github.5084227bbe3fc0aeaac5abb6cb55f87c.svg",
     "static/media/materialui.svg": "/protfolio/static/media/materialui.07063455a65ec2a421bf326e7db7d48a.svg",
     "main.159d8571.css.map": "/protfolio/static/css/main.159d8571.css.map",
-    "main.5167c122.js.map": "/protfolio/static/js/main.5167c122.js.map"
+    "main.4d2ccce4.js.map": "/protfolio/static/js/main.4d2ccce4.js.map"
   },
   "entrypoints": [
     "static/css/main.159d8571.css",
-    "static/js/main.5167c122.js"
+    "static/js/main.4d2ccce4.js"
   ]
 }
