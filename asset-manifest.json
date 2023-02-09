@@ -1,12 +1,16 @@
 {
   "files": {
-    "main.css": "/protfolio/static/css/main.35759a84.css",
-    "main.js": "/protfolio/static/js/main.b3262a3a.js",
+    "main.css": "/protfolio/static/css/main.159d8571.css",
+    "main.js": "/protfolio/static/js/main.f144b6d2.js",
     "static/media/carocityFull.png": "/protfolio/static/media/carocityFull.e18e4cc76167447f3603.png",
+    "static/media/pokemonFull.png": "/protfolio/static/media/pokemonFull.3a47d2c9a3f85ae16ffc.png",
     "static/media/NetflixFull.png": "/protfolio/static/media/NetflixFull.70d44d316e0c1b6710be.png",
     "static/media/LoopstudiosFull.png": "/protfolio/static/media/LoopstudiosFull.98760d72b226a6d82ab7.png",
+    "static/media/pokemon.png": "/protfolio/static/media/pokemon.cecf8271d363ee777489.png",
     "static/media/Netflix.png": "/protfolio/static/media/Netflix.023d6c50025ea7d3ec37.png",
     "static/media/Loopstudios.png": "/protfolio/static/media/Loopstudios.dd1a5615a306bb63b9ef.png",
+    "static/media/spaceXFull.png": "/protfolio/static/media/spaceXFull.a53174b767b654e3b6fc.png",
+    "static/media/spaceX.png": "/protfolio/static/media/spaceX.6f47e683ca872e218d80.png",
     "static/media/EasyBankFull.png": "/protfolio/static/media/EasyBankFull.3f49a0d5efcf90ced1fd.png",
     "static/media/nasim4.png": "/protfolio/static/media/nasim4.6b946ffcb0b433870fa1.png",
     "static/media/Careocity.png": "/protfolio/static/media/Careocity.0f9258de2c1c51705556.png",
@@ -24,6 +28,7 @@
     "static/media/sass.svg": "/protfolio/static/media/sass.84c0434cf143925b9b4aef0e37c7e1bc.svg",
     "static/media/git.svg": "/protfolio/static/media/git.24c449f45ac1ab5695fc431874973f87.svg",
     "static/media/reactjs.svg": "/protfolio/static/media/reactjs.99968e1f4d0412d16dc4c870f4ceb4a7.svg",
+    "static/media/nextjs.svg": "/protfolio/static/media/nextjs.bab92e4cdfa8df8f9959288cb36f3ba5.svg",
     "static/media/firebase.svg": "/protfolio/static/media/firebase.f4f7bca90d5c608ad3db62160592ee06.svg",
     "static/media/mongodb.svg": "/protfolio/static/media/mongodb.464a4e8bb6d791cfa542bd7b0faa2507.svg",
     "static/media/redux.svg": "/protfolio/static/media/redux.d81fad54282cfb5c2e14133ee4061ee0.svg",
@@ -33,17 +38,18 @@
     "static/media/tailwindcss.svg": "/protfolio/static/media/tailwindcss.db193e8a564ccf499c36abbd2c965d52.svg",
     "static/media/css.svg": "/protfolio/static/media/css.aec31ad6887c3a820a1b3b8e2b9d9937.svg",
     "static/media/expressjs.svg": "/protfolio/static/media/expressjs.a09b2931aa9e91f18fcbead5cc7bb286.svg",
+    "static/media/typescript.svg": "/protfolio/static/media/typescript.7178f9e6e4be8fa97fff8ca16cb17dea.svg",
     "index.html": "/protfolio/index.html",
     "static/media/vscode.svg": "/protfolio/static/media/vscode.ccdcf4067a67bc77d69f2c0fb9b3ab24.svg",
     "static/media/bootstrap.svg": "/protfolio/static/media/bootstrap.d1ee6a52935d23cb9c25dde01657ef84.svg",
     "static/media/js.svg": "/protfolio/static/media/js.4e7f61d9190c3ed22a09a5f0159d84eb.svg",
     "static/media/github.svg": "/protfolio/static/media/github.5084227bbe3fc0aeaac5abb6cb55f87c.svg",
     "static/media/materialui.svg": "/protfolio/static/media/materialui.07063455a65ec2a421bf326e7db7d48a.svg",
-    "main.35759a84.css.map": "/protfolio/static/css/main.35759a84.css.map",
-    "main.b3262a3a.js.map": "/protfolio/static/js/main.b3262a3a.js.map"
+    "main.159d8571.css.map": "/protfolio/static/css/main.159d8571.css.map",
+    "main.f144b6d2.js.map": "/protfolio/static/js/main.f144b6d2.js.map"
   },
   "entrypoints": [
-    "static/css/main.35759a84.css",
-    "static/js/main.b3262a3a.js"
+    "static/css/main.159d8571.css",
+    "static/js/main.f144b6d2.js"
   ]
 }
