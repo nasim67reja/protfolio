@@ -22,7 +22,7 @@ const Info = () => {
       </p>
       <div className={styles.btnList}>
         <a
-          href="https://drive.google.com/file/d/1ryXW5jD1Yy5rGcdwCmpYkWwHhWjuBs09/view?usp=share_link"
+          href="https://drive.google.com/file/d/1fNLqkA0s9s1EFj7hpIOz3DPOmG_3eXKK/view?usp=share_link"
           target="_blank"
           rel="noreferrer"
           className={styles.btn}

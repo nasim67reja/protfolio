@@ -6,8 +6,53 @@ import BookmarkFUll from "../../Images/projects/BookmarkFull.png";
 import ManageFull from "../../Images/projects/ManageFull.png";
 import FyloFull from "../../Images/projects/FyloFull.png";
 import Product from "../../Images/projects/Product.png";
+import spaceXFull from "../../Images/projects/spaceXFull.png";
+import pokemonFull from "../../Images/projects/pokemonFull.png";
 
 export const data = [
+  {
+    name: "Pokemon App",
+    title:
+      "Pokemon Website using Next.js, GraphQL API,TypeScript and Tailwind Css",
+    tag: "#NEXTJS",
+    link: "https://pokemon-app-lemon-three.vercel.app/?fbclid=IwAR1hxWDvhAlMEM3knhBFjVWqA3--Sl6TXCGhaqoICa08sEdXOZziW00Bpz8",
+    linkGithub: "https://github.com/nasim67reja/Pokemon-App",
+    image: pokemonFull,
+    technology: [
+      "NextJs",
+      "TypeScript",
+      "GraphQL",
+      "Apollo Client",
+      "Redux Toolkit",
+      "Tailwind Css",
+    ],
+    overview:
+      "Welcome to this project where I have utilized Next.js, GraphQL, TypeScript and Tailwind CSS to develop a website using the Pokemon GraphQL API as the backend.",
+    description: [
+      `Before embarking on this project, I was new to both Next.js and GraphQL, making this project an exciting opportunity for me to learn and challenge myself. Through working on this project, I was able to improve my skills in these technologies and deliver a high-quality end product. Despite the challenges and obstacles I faced along the way, I persevered and was able to complete the project within the allotted time frame. This project showcases not only my technical skills, but also my dedication, determination and ability to learn new technologies. I am confident that this project will make me a strong applicant and demonstrate my potential as a software developer.`,
+    ],
+  },
+
+  {
+    name: "SpaceX Launch Tracker App",
+    title: "SpaceX Launch Tracker using Reactjs ,TS,RTK QUERY & ANT-Design",
+    tag: "#REACTJS",
+    link: "https://nasim67reja.github.io/M360ICT-Codingtest/",
+    linkGithub: "https://github.com/nasim67reja/M360ICT-Codingtest",
+    image: spaceXFull,
+    technology: [
+      "ReactJs",
+      "TypeScript",
+      "RTK QUERY",
+      "ANT Design",
+      "Redux Toolkit",
+      "Tailwind Css",
+    ],
+    overview:
+      "This project is a React.js application that focuses on developing user interface components and implementing well-known React workflows such as Redux,Redux toolkit, and RTK. The aim is to create an optimized and high-performing web application that caters to the needs of users across a vast array of web-capable devices and browsers.",
+    description: [],
+  },
+
   {
     name: "Careocity",
     title:

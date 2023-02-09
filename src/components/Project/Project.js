@@ -8,6 +8,8 @@ import Fylo from "../../Images/projects/Fylo.png";
 import Product from "../../Images/projects/Product.png";
 import Careocity from "../../Images/projects/Careocity.png";
 import Netflix from "../../Images/projects/Netflix.png";
+import pokemon from "../../Images/projects/pokemon.png";
+import spaceX from "../../Images/projects/spaceX.png";
 
 import { Link } from "react-router-dom";
 
@@ -29,6 +31,7 @@ const Project = () => {
   const [clickedFullStack, setClickedFullStack] = useState(false);
   const [clickedFrontEnd, setClickedFrontEnd] = useState(false);
   const [clickedReactJs, setClickedReactJs] = useState(false);
+  const [clickedNextJs, setClickedNextJs] = useState(false);
 
   return (
     <div className="container">
@@ -45,10 +48,12 @@ const Project = () => {
               setClickedFullStack(false);
               setClickedFrontEnd(false);
               setClickedReactJs(false);
+              setClickedNextJs(false);
             }}
           >
             ALL WORK
           </button>
+
           <button
             className={`${clickedFullStack ? "active-btn" : ""}`}
             onClick={() => {
@@ -56,6 +61,7 @@ const Project = () => {
               setClickedFullStack(true);
               setClickedFrontEnd(false);
               setClickedReactJs(false);
+              setClickedNextJs(false);
             }}
           >
             FULL STACK
@@ -67,6 +73,7 @@ const Project = () => {
               setClickedFullStack(false);
               setClickedFrontEnd(true);
               setClickedReactJs(false);
+              setClickedNextJs(false);
             }}
           >
             FRONT END
@@ -78,9 +85,22 @@ const Project = () => {
               setClickedFullStack(false);
               setClickedFrontEnd(false);
               setClickedReactJs(true);
+              setClickedNextJs(false);
             }}
           >
             REACT JS
+          </button>
+          <button
+            className={`${clickedNextJs ? "active-btn" : ""}`}
+            onClick={() => {
+              setClickedNextJs(true);
+              setClickedAll(false);
+              setClickedFullStack(false);
+              setClickedFrontEnd(false);
+              setClickedReactJs(false);
+            }}
+          >
+            NEXTJS
           </button>
         </div>
       </div>
@@ -97,14 +117,42 @@ const Project = () => {
           </>
         )}
         {clickedReactJs && (
-          <Card
-            tag="#REACTJS"
-            img={Loopstudios}
-            title="Responsive landing page using Reactjs & tailwindCss"
-          />
+          <>
+            <Card
+              tag="#REACTJS"
+              img={spaceX}
+              title="SpaceX Launch Tracker using Reactjs ,TS,RTK QUERY & ANT-Design"
+            />
+            <Card
+              tag="#REACTJS"
+              img={Loopstudios}
+              title="Responsive landing page using Reactjs & tailwindCss"
+            />
+          </>
         )}
+        {clickedNextJs && (
+          <>
+            <Card
+              tag="#NEXTJS"
+              img={pokemon}
+              title="Pokemon Website using Next.js, GraphQL API,TypeScript and Tailwind Css"
+            />
+          </>
+        )}
+
         {clickedFrontEnd && (
           <>
+            <Card
+              tag="#NEXTJS"
+              img={pokemon}
+              title="Pokemon Website using Next.js, GraphQL API,TypeScript and Tailwind Css"
+            />
+            <Card
+              tag="#REACTJS"
+              img={spaceX}
+              title="SpaceX Launch Tracker using Reactjs ,TS,RTK QUERY & ANT-Design"
+            />
+
             <Card
               tag="#REACTJS"
               img={Loopstudios}
@@ -143,6 +191,18 @@ const Project = () => {
               tag="#MERN"
               img={Careocity}
               title="Careocity an e-commerce website using react,node,express & tailwindCss"
+            />
+
+            <Card
+              tag="#NEXTJS"
+              img={pokemon}
+              title="Pokemon Website using Next.js, GraphQL API,TypeScript and Tailwind Css"
+            />
+
+            <Card
+              tag="#REACTJS"
+              img={spaceX}
+              title="SpaceX Launch Tracker using Reactjs ,TS,RTK QUERY & ANT-Design"
             />
             <Card tag="#REACTJS&FIREBASE" img={Netflix} title="Netflix Clone" />
             <Card
