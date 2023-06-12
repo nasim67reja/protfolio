@@ -162,7 +162,12 @@ const Form = (props) => {
         )}
       </div>
       <div className="form-actions">
-        <button className="form-btn" disabled={!formIsValid}>
+        <button
+          className="form-btn"
+          disabled={
+            !formIsValid || inputEmail.value === "sanjidaorni35@gmail.com"
+          }
+        >
           <span>Submit</span>
           <svg
             xmlns="http://www.w3.org/2000/svg"
