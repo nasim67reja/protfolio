@@ -140,15 +140,15 @@ const Experience = () => {
 
       <div>
         <div className={styles.header}>
-          <span>2021 - continue</span>
-          <h3>Projects</h3>
+          <span>2023 - continue</span>
+          <h3>Professional</h3>
         </div>
         <div className={styles.aboutCol}>
           <div className={styles.line}></div>
           <div>
             <div className={styles.textbox}>
               <h4>
-                <a
+                {/* <a
                   className={styles.courseLink}
                   href="https://nasim67reja.github.io/CareoCIty-ecommerce/"
                 >
@@ -162,104 +162,38 @@ const Experience = () => {
                 >
                   Live Site
                   <ion-icon name="open-outline"></ion-icon>
-                </a>
-                <span>(05/2022 - continue)</span>
+                </a> */}
+                Junior Full Stack Developer, Bayshore Communication
+                <span>(March 2023 - July 2023)</span>
               </h4>
               <h5>Overview</h5>
               <ul>
                 <li>
-                  A MERN stack web app, which provides customers with various
-                  Product
+                  Developed a MERN stack e-commerce project with dynamic
+                  functionalities for enhanced user interactions.
                 </li>
                 <li>
-                  Customers can sign in & sign up by providing their
-                  credentials, and after successfully signing up, they will
-                  receive a welcome email in their provided email.
+                  Created a secure authentication system for seamless login and
+                  registration processes.
                 </li>
                 <li>
-                  A Customer can also reset his password if he forgot, delete
-                  his account, Update his credentials, upload his photo, and log
-                  out from the application.
+                  Designed and developed an intuitive admin dashboard for
+                  efficient product inventory and order management.
                 </li>
                 <li>
-                  Many routes of this application (account, Cart) are protected
-                  from the non-logged-in customer.JWT and cookies have applied
-                  the authentication.
+                  Collaborated with senior developers and designers to ensure
+                  timely project delivery while maintaining code quality.
                 </li>
                 <li>
-                  After successfully logging in, a customer can see his cart,
-                  add, remove and update products to his cart and buy products
-                  using the Stripe Payment gateway.
+                  Participated in code reviews, debugging sessions, and
+                  continuous integration processes for optimized application
+                  performance.
                 </li>
                 <li>
-                  A Logged in customer can also write, delete, and Update
-                  reviews for a specific product.
+                  Additionally, built multiple SEO friendly static pages for
+                  service agencies using Next.js
                 </li>
               </ul>
-              <h5>In future</h5>
-              <ul>
-                <li>
-                  Admin will add a new product, update the product, delete the
-                  product, add a new user, delete an existing user, and see all
-                  the users on a beautiful dashboard.
-                </li>
-              </ul>
-              <p className={styles.note}>
-                Note: all these features are available in the API but still not
-                implemented on the front end
-              </p>
-              <div className={styles.toolsBox}>
-                <span className={styles.tools}>Tools & Technologies :</span>
-                <span className={styles.technologies}>
-                  React, React Router 6, NodeJs, axios, Redux-toolkit,
-                  TailwindCss, ExpressJs, MongoDB.
-                </span>
-              </div>
-            </div>
-
-            <div className={styles.textbox}>
-              <h4>
-                <a
-                  className={styles.courseLink}
-                  href=" https://nasim67reja.github.io/NETFLIX-clone/"
-                >
-                  Netflix Clone
-                </a>
-                <a
-                  className={styles.credentials}
-                  target="_blank"
-                  rel="noreferrer"
-                  href=" https://nasim67reja.github.io/NETFLIX-clone/"
-                >
-                  Live Site
-                  <ion-icon name="open-outline"></ion-icon>
-                </a>
-                <span>(10/2022 - 10/2022)</span>
-              </h4>
-              <h5>Overview</h5>
-              <ul>
-                <li>
-                  A Web app, where user can see latest movies and web series.
-                </li>
-                <li>
-                  A user can sign in & sign up by providing their credentials.
-                </li>
-                <li>
-                  After successfully sign in or sign up, a user can save movies
-                  in his cart
-                </li>
-              </ul>
-
-              <div className={styles.toolsBox}>
-                <span className={styles.tools}>Tools & Technologies :</span>
-                <span className={styles.technologies}>
-                  React, React Router 6, axios, React Context Api, Firebase
-                </span>
-              </div>
-            </div>
-            <div className={styles.link}>
-              For more check
-              <Link to="/project"> here</Link>
             </div>
           </div>
         </div>

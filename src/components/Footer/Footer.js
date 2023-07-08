@@ -6,7 +6,7 @@ export const Footer = () => {
       <div className="container">
         <div className={styles.line}></div>
         <div className={`${styles.dis} flex`}>
-          <p>© 2022 Nasim Reja.</p>
+          <p>© 2023 Nasim Reja.</p>
           <p>
             Built with
             <span>

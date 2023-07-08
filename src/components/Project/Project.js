@@ -10,6 +10,9 @@ import Careocity from "../../Images/projects/Careocity.png";
 import Netflix from "../../Images/projects/Netflix.png";
 import pokemon from "../../Images/projects/pokemon.png";
 import spaceX from "../../Images/projects/spaceX.png";
+import Bayshore from "../../Images/projects/Bayshore.png";
+import aquariumzen from "../../Images/projects/aquariumzen.png";
+import swop from "../../Images/projects/swop.png";
 
 import { Link } from "react-router-dom";
 
@@ -110,6 +113,11 @@ const Project = () => {
           <>
             <Card
               tag="#MERN"
+              img={swop}
+              title="swop an e-commerce production level website using react,node,express & tailwindCss"
+            />
+            <Card
+              tag="#MERN"
               img={Careocity}
               title="Careocity an e-commerce website using react,node,express & tailwindCss"
             />
@@ -134,14 +142,41 @@ const Project = () => {
           <>
             <Card
               tag="#NEXTJS"
+              img={Bayshore}
+              title="Bayshore Website using Next.js,TypeScript and Tailwind Css"
+            />
+            <Card
+              tag="#NEXTJS"
+              img={aquariumzen}
+              title="AquariumZen a production level Website using Next.js and Tailwind Css"
+            />
+
+            <Card
+              tag="#NEXTJS"
               img={pokemon}
               title="Pokemon Website using Next.js, GraphQL API,TypeScript and Tailwind Css"
+            />
+
+            <Card
+              tag="#MERN"
+              img={swop}
+              title="swop an e-commerce production level website using react,node,express & tailwindCss"
             />
           </>
         )}
 
         {clickedFrontEnd && (
           <>
+            <Card
+              tag="#NEXTJS"
+              img={Bayshore}
+              title="Bayshore Website using Next.js,TypeScript and Tailwind Css"
+            />
+            <Card
+              tag="#NEXTJS"
+              img={aquariumzen}
+              title="AquariumZen a production level Website using Next.js and Tailwind Css"
+            />
             <Card
               tag="#NEXTJS"
               img={pokemon}
@@ -189,16 +224,30 @@ const Project = () => {
           <>
             <Card
               tag="#MERN"
+              img={swop}
+              title="swop an e-commerce production level website using react,node,express & tailwindCss"
+            />
+            <Card
+              tag="#MERN"
               img={Careocity}
               title="Careocity an e-commerce website using react,node,express & tailwindCss"
             />
+            <Card
+              tag="#NEXTJS"
+              img={aquariumzen}
+              title="AquariumZen a production level Website using Next.js and Tailwind Css"
+            />
 
+            <Card
+              tag="#NEXTJS"
+              img={Bayshore}
+              title="Bayshore Website using Next.js,TypeScript and Tailwind Css"
+            />
             <Card
               tag="#NEXTJS"
               img={pokemon}
               title="Pokemon Website using Next.js, GraphQL API,TypeScript and Tailwind Css"
             />
-
             <Card
               tag="#REACTJS"
               img={spaceX}

@@ -13,16 +13,19 @@ const Info = () => {
         a Full Stack web developer.
       </h2>
       <p className={styles.description}>
-        <span className={styles.fingure}>👋</span> I'm Nasim Reja, a Full-stack
-        web developer who can work with other developers and designers to
-        maintain existing website code, create new designs from mockups, add new
-        interactive features to existing sites and work with layouts. As a Full
-        Stack Developer, I'm comfortable with front-end and back-end coding
-        languages, development frameworks and third-party libraries.
+        <span className={styles.fingure}>👋</span> I'm Nasim Reja, a Versatile
+        developer experienced in both front-end and backend development.
+        Proficient in React.js for creating intuitive user interfaces and
+        Node.js with Express.js for building robust backend systems.
+        Demonstrated problem-solving skills by solving over 65+ coding
+        challenges on platforms like LeetCode. Committed to delivering
+        high-quality solutions with meticulous attention to detail. Stay updated
+        with the latest front-end and backend development technologies to drive
+        project success and innovation.
       </p>
       <div className={styles.btnList}>
         <a
-          href="https://drive.google.com/file/d/1HJbj0WGyCpVH0xJY3637fU565ONBw-fv/view"
+          href="https://drive.google.com/file/d/1Xe76JmxvsqQzoj7rOkaSAr4GZrqBcPyv/view?usp=drive_link"
           target="_blank"
           rel="noreferrer"
           className={styles.btn}
