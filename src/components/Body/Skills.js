@@ -11,12 +11,12 @@ import JS from "../../Images/Logo/js.svg";
 import CSS from "../../Images/Logo/css.svg";
 import Html5 from "../../Images/Logo/html5.svg";
 import Redux from "../../Images/Logo/redux.svg";
+import NextJs from "../../Images/Logo/nextjs.svg";
+import tailwindcss from "../../Images/Logo/tailwindcss.svg";
 
 // comfortable
 import Sass from "../../Images/Logo/sass.svg";
 import typescript from "../../Images/Logo/typescript.svg";
-import NextJs from "../../Images/Logo/nextjs.svg";
-import tailwindcss from "../../Images/Logo/tailwindcss.svg";
 import materialui from "../../Images/Logo/materialui.svg";
 import firebase from "../../Images/Logo/firebase.svg";
 import bootstrap from "../../Images/Logo/bootstrap.svg";
@@ -28,19 +28,21 @@ import Github from "../../Images/Logo/github.svg";
 import Adobexd from "../../Images/Logo/adobexd.svg";
 import Compass from "../../Images/Logo/compass.svg";
 import Vscode from "../../Images/Logo/vscode.svg";
+import figma from "../../Images/Logo/figma.svg";
 
 import useSkills from "./useSkills";
 
 const Skills = () => {
   const proficientSkills = useSkills({
-    Html5,
-    CSS,
     JS,
+    NextJs,
     Reactjs,
     Tailwind: tailwindcss,
-    Redux,
     Nodejs,
     Expressjs,
+    Redux,
+    Html5,
+    CSS,
     Mongodb,
   });
 
@@ -50,10 +52,17 @@ const Skills = () => {
     bootstrap,
     Sass,
     typescript,
-    NextJs,
   });
 
-  const tools = useSkills({ Postman, Compass, Github, Git, Vscode, Adobexd });
+  const tools = useSkills({
+    figma,
+    Postman,
+    Compass,
+    Github,
+    Git,
+    Vscode,
+    Adobexd,
+  });
 
   return (
     <Fragment>
