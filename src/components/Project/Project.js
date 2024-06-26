@@ -1,20 +1,15 @@
 import React, { useState } from "react";
 import styles from "./Project.module.css";
-import easyBank from "../../Images/projects/easyBank.png";
-import Bookmark from "../../Images/projects/Bookmark.png";
-import Manage from "../../Images/projects/Manage.png";
-import Loopstudios from "../../Images/projects/Loopstudios.png";
-import Fylo from "../../Images/projects/Fylo.png";
-import Product from "../../Images/projects/Product.png";
-import Careocity from "../../Images/projects/Careocity.png";
-import Netflix from "../../Images/projects/Netflix.png";
-import pokemon from "../../Images/projects/pokemon.png";
-import spaceX from "../../Images/projects/spaceX.png";
-import Bayshore from "../../Images/projects/Bayshore.png";
-import aquariumzen from "../../Images/projects/aquariumzen.png";
-import swop from "../../Images/projects/swop.png";
-
 import { Link } from "react-router-dom";
+import { data as projectData } from "./projectData";
+
+const tabs = [
+  { name: "ALL WORK", key: "all" },
+  { name: "FULL STACK", key: "fullstack" },
+  { name: "FRONT END", key: "frontend" },
+  { name: "REACT JS", key: "reactjs" },
+  { name: "NEXTJS", key: "nextjs" },
+];
 
 const Card = ({ tag, title, img }) => {
   return (
@@ -22,7 +17,7 @@ const Card = ({ tag, title, img }) => {
       <span>{tag}</span>
       <div className={styles.title}>{title}</div>
       <div className={styles.imgbox}>
-        <img src={img} alt="prject" />
+        <img src={img} alt="project" />
       </div>
       <Link to={`/project/${title}`}>view details ➡</Link>
     </div>
@@ -30,262 +25,41 @@ const Card = ({ tag, title, img }) => {
 };
 
 const Project = () => {
-  const [clickedAll, setClickedAll] = useState(true);
-  const [clickedFullStack, setClickedFullStack] = useState(false);
-  const [clickedFrontEnd, setClickedFrontEnd] = useState(false);
-  const [clickedReactJs, setClickedReactJs] = useState(false);
-  const [clickedNextJs, setClickedNextJs] = useState(false);
+  const [activeTab, setActiveTab] = useState("all");
+
+  const filteredProjects = activeTab === "all"
+    ? projectData
+    : projectData.filter(project => project.tag.toLowerCase().includes(activeTab));
 
   return (
     <div className="container">
       <div className={styles.header}>
         <div className={styles.headerLeft}>
-          <span>PROTFOLIO</span>
+          <span>PORTFOLIO</span>
           <h1>CREATIVE WORKS</h1>
         </div>
         <div className={styles.btnBox}>
-          <button
-            className={`${clickedAll ? "active-btn" : ""}`}
-            onClick={() => {
-              setClickedAll(true);
-              setClickedFullStack(false);
-              setClickedFrontEnd(false);
-              setClickedReactJs(false);
-              setClickedNextJs(false);
-            }}
-          >
-            ALL WORK
-          </button>
-
-          <button
-            className={`${clickedFullStack ? "active-btn" : ""}`}
-            onClick={() => {
-              setClickedAll(false);
-              setClickedFullStack(true);
-              setClickedFrontEnd(false);
-              setClickedReactJs(false);
-              setClickedNextJs(false);
-            }}
-          >
-            FULL STACK
-          </button>
-          <button
-            className={`${clickedFrontEnd ? "active-btn" : ""}`}
-            onClick={() => {
-              setClickedAll(false);
-              setClickedFullStack(false);
-              setClickedFrontEnd(true);
-              setClickedReactJs(false);
-              setClickedNextJs(false);
-            }}
-          >
-            FRONT END
-          </button>
-          <button
-            className={`${clickedReactJs ? "active-btn" : ""}`}
-            onClick={() => {
-              setClickedAll(false);
-              setClickedFullStack(false);
-              setClickedFrontEnd(false);
-              setClickedReactJs(true);
-              setClickedNextJs(false);
-            }}
-          >
-            REACT JS
-          </button>
-          <button
-            className={`${clickedNextJs ? "active-btn" : ""}`}
-            onClick={() => {
-              setClickedNextJs(true);
-              setClickedAll(false);
-              setClickedFullStack(false);
-              setClickedFrontEnd(false);
-              setClickedReactJs(false);
-            }}
-          >
-            NEXTJS
-          </button>
+          {tabs.map(tab => (
+            <button
+              key={tab.key}
+              className={`${activeTab === tab.key ? "active-btn" : ""}`}
+              onClick={() => setActiveTab(tab.key)}
+            >
+              {tab.name}
+            </button>
+          ))}
         </div>
       </div>
 
       <div className={styles.cardBox}>
-        {clickedFullStack && (
-          <>
-            <Card
-              tag="#MERN"
-              img={swop}
-              title="swop an e-commerce production level website using react,node,express & tailwindCss"
-            />
-            <Card
-              tag="#MERN"
-              img={Careocity}
-              title="Careocity an e-commerce website using react,node,express & tailwindCss"
-            />
-            <Card tag="#REACTJS&FIREBASE" img={Netflix} title="Netflix Clone" />
-          </>
-        )}
-        {clickedReactJs && (
-          <>
-            <Card
-              tag="#REACTJS"
-              img={spaceX}
-              title="SpaceX Launch Tracker using Reactjs ,TS,RTK QUERY & ANT-Design"
-            />
-            <Card
-              tag="#REACTJS"
-              img={Loopstudios}
-              title="Responsive landing page using Reactjs & tailwindCss"
-            />
-          </>
-        )}
-        {clickedNextJs && (
-          <>
-            <Card
-              tag="#NEXTJS"
-              img={Bayshore}
-              title="Bayshore Website using Next.js,TypeScript and Tailwind Css"
-            />
-            <Card
-              tag="#NEXTJS"
-              img={aquariumzen}
-              title="AquariumZen a production level Website using Next.js and Tailwind Css"
-            />
-
-            <Card
-              tag="#NEXTJS"
-              img={pokemon}
-              title="Pokemon Website using Next.js, GraphQL API,TypeScript and Tailwind Css"
-            />
-
-            <Card
-              tag="#MERN"
-              img={swop}
-              title="swop an e-commerce production level website using react,node,express & tailwindCss"
-            />
-          </>
-        )}
-
-        {clickedFrontEnd && (
-          <>
-            <Card
-              tag="#NEXTJS"
-              img={Bayshore}
-              title="Bayshore Website using Next.js,TypeScript and Tailwind Css"
-            />
-            <Card
-              tag="#NEXTJS"
-              img={aquariumzen}
-              title="AquariumZen a production level Website using Next.js and Tailwind Css"
-            />
-            <Card
-              tag="#NEXTJS"
-              img={pokemon}
-              title="Pokemon Website using Next.js, GraphQL API,TypeScript and Tailwind Css"
-            />
-            <Card
-              tag="#REACTJS"
-              img={spaceX}
-              title="SpaceX Launch Tracker using Reactjs ,TS,RTK QUERY & ANT-Design"
-            />
-
-            <Card
-              tag="#REACTJS"
-              img={Loopstudios}
-              title="Responsive landing page using Reactjs & tailwindCss"
-            />
-            <Card
-              tag="#HTML&CSS"
-              img={easyBank}
-              title="Easy Bank - Next generation digital banking "
-            />
-            <Card
-              tag="#HTML&CSS"
-              img={Bookmark}
-              title="Responsive landing page using CSS grid, flexbox & Vanila Js"
-            />
-            <Card
-              tag="#HTML&CSS"
-              img={Manage}
-              title="Responsive Manage landing page using CSS Grid"
-            />
-            <Card
-              tag="#HTML&CSS"
-              img={Fylo}
-              title="Responsive landing page using css grid & HTML5"
-            />
-            <Card
-              tag="#HTML&CSS"
-              img={Product}
-              title="E-commerce product page using css grid & HTML5"
-            />
-          </>
-        )}
-        {clickedAll && (
-          <>
-            <Card
-              tag="#MERN"
-              img={swop}
-              title="swop an e-commerce production level website using react,node,express & tailwindCss"
-            />
-            <Card
-              tag="#MERN"
-              img={Careocity}
-              title="Careocity an e-commerce website using react,node,express & tailwindCss"
-            />
-            <Card
-              tag="#NEXTJS"
-              img={aquariumzen}
-              title="AquariumZen a production level Website using Next.js and Tailwind Css"
-            />
-
-            <Card
-              tag="#NEXTJS"
-              img={Bayshore}
-              title="Bayshore Website using Next.js,TypeScript and Tailwind Css"
-            />
-            <Card
-              tag="#NEXTJS"
-              img={pokemon}
-              title="Pokemon Website using Next.js, GraphQL API,TypeScript and Tailwind Css"
-            />
-            <Card
-              tag="#REACTJS"
-              img={spaceX}
-              title="SpaceX Launch Tracker using Reactjs ,TS,RTK QUERY & ANT-Design"
-            />
-            <Card tag="#REACTJS&FIREBASE" img={Netflix} title="Netflix Clone" />
-            <Card
-              tag="#REACTJS"
-              img={Loopstudios}
-              title="Responsive landing page using Reactjs & tailwindCss"
-            />
-            <Card
-              tag="#HTML&CSS"
-              img={easyBank}
-              title="Easy Bank - Next generation digital banking "
-            />
-            <Card
-              tag="#HTML&CSS"
-              img={Bookmark}
-              title="Responsive landing page using CSS grid, flexbox & Vanila Js"
-            />
-            <Card
-              tag="#HTML&CSS"
-              img={Manage}
-              title="Responsive Manage landing page using CSS Grid"
-            />
-            <Card
-              tag="#HTML&CSS"
-              img={Fylo}
-              title="Responsive landing page using css grid & HTML5"
-            />
-            <Card
-              tag="#HTML&CSS"
-              img={Product}
-              title="E-commerce product page using css grid & HTML5"
-            />
-          </>
-        )}
+        {filteredProjects.map(project => (
+          <Card
+            key={project.name}
+            tag={project.tag}
+            img={project.image}
+            title={project.title}
+          />
+        ))}
       </div>
     </div>
   );

@@ -1,7 +1,7 @@
 {
   "homepage": "http://nasim67reja.github.io/protfolio",
-  "name": "react-complete-guide",
-  "version": "0.1.0",
+  "name": "portfolio",
+  "version": "0.2.0",
   "private": true,
   "dependencies": {
     "@emailjs/browser": "^3.7.0",

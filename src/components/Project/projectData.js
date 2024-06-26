@@ -10,6 +10,7 @@ import spaceXFull from "../../Images/projects/spaceXFull.png";
 import pokemonFull from "../../Images/projects/pokemonFull.png";
 
 export const data = [
+
   {
     name: "Pokemon App",
     title:
@@ -188,6 +189,19 @@ export const data = [
     description: [
       "View the optimal layout for the site depending on their device's screen size",
       "See hover states for all interactive elements on the page",
+    ],
+  },
+  {
+    name: "Nrb world",
+    title: "NRB World",
+    tag: "#webdevlopment #frontenddev #fullstack",
+    link: "https://app.nrbworld.org/",
+    linkGithub: "https://github.com/nasim67reja/Pokemon-App",
+    image: pokemonFull,
+    technology: ["ReactJs", "Redux Toolkit", "Scss", "draft-js"],
+    overview: "A project utilizing React.js, Redux Toolkit, Scss, and draft-js for NRB World.",
+    description: [
+      `Before embarking on this project, I was new to both Next.js and GraphQL, making this project an exciting opportunity for me to learn and challenge myself. Through working on this project, I was able to improve my skills in these technologies and deliver a high-quality end product. Despite the challenges and obstacles I faced along the way, I persevered and was able to complete the project within the allotted time frame. This project showcases not only my technical skills, but also my dedication, determination and ability to learn new technologies. I am confident that this project will make me a strong applicant and demonstrate my potential as a software developer.`,
     ],
   },
 ];
